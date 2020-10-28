@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Агромир | Мясная лавка</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="static/images/icons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<style>
+
+		input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
+        input[type="number"] {
+          -moz-appearance: textfield;
+        }
+
+        input[type="number"]:hover,
+        input[type="number"]:focus {
+          -moz-appearance: number-input;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" method="POST">
+				<span class="contact100-form-title">
+					Добавление менеджера
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" type="text" name="manager" required placeholder="Введите ФИО менеджера">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+							<button class="contact100-form-btn" type="submit">
+								Подтвердить
+							</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
